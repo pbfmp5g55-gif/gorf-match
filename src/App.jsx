@@ -44,7 +44,7 @@ const AppRoutes = () => {
 const App = () => {
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/gorf-match">
         <AppRoutes />
       </BrowserRouter>
     </AuthProvider>
